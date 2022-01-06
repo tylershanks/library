@@ -13,8 +13,9 @@ function Book(title, author, pages) {
 }
 
 const book1 = new Book('Game of Thrones', 'George RR Martin', '874')
+const book2 = new Book('Green Eggs and Ham', 'Dr. Suess', '25')
 
-console.log(book1.info)
+console.log(book1.info + "line 17")
 
 
 
@@ -26,6 +27,7 @@ function addBookToLibrary(bookToAdd) {
 }
 
 addBookToLibrary(book1);
+addBookToLibrary(book2);
 
 
 console.log(myLibrary)
